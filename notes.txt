@@ -29,7 +29,26 @@ pc7@pc7-ThinkPad-T530:~/dev/html$ git config --global user.email "7juc9w0ic@mozm
 
 
 
+étudier ceci : …or create a new repository on the command line
 
+echo "# formation-crealead" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TheVroum/formation-crealead.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/TheVroum/formation-crealead.git
+git branch -M main
+git push -u origin main
+
+
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+https://git-scm.com/docs/git-branch
+distributed-even-if-your-workflow-isn't : que veulent ils dire
 
 
 
