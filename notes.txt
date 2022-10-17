@@ -1,0 +1,36 @@
+ memopus.com
+ coopernet.fr
+ pastebin.com
+ 
+ "Live server"
+"html css support", 
+"auto rename tag", 
+"html tag wrapper",
+"Add jsdoc comments" pour créer automatiquement les commentaires des fonctions en js
+"IntelliJ IDEA Keybindings" pour récupérer les raccourcis de phpstorm
+
+à ajouter 7juc9w0ic@mozmail.com à mozmail aliases pour discord.com. mot de passe : y8wLMNYnyvY89uZ
+et utilisé sur le git de la machine
+
+
+
+alt z pour crop le contenu.
+ctrl d dupliquer la sélection ou la ligne
+ctrl l pour sélectionner la ligne courrante
+alt + fleches haut/bas pour déplacer la ligne courrante
+ctrl alt l : formatter la sélection ou le document
+ctrl + maj + k supprimer la ligne courrante
+
+
+
+
+git config --global user.name "Jean Oustry"
+pc7@pc7-ThinkPad-T530:~/dev/html$ git config --global user.email "7juc9w0ic@mozmail.com"
+
+
+
+
+
+
+
+multi sélection : à chercher
