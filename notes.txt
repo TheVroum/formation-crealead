@@ -53,3 +53,24 @@ distributed-even-if-your-workflow-isn't : que veulent ils dire
 
 
 multi sélection : à chercher
+
+COUCOU
+
+http://memopus.com/my-tables | Memopus - apprendre avec la méthode de la répétition espacée
+https://coopernet.fr/formation/git | git - Gestion décentralisée de version | Coopernet
+https://discord.com/channels/1031510806405328906/1031510806862499901 | (1255) Discord | #général | PRF 06
+http://127.0.0.1:5500/index.html | COUCOU
+https://github.com/TheVroum/formation-crealead/blob/main/notes.txt | formation-crealead/notes.txt at main · TheVroum/formation-crealead
+https://github.com/yvandouenel/prf06 | yvandouenel/prf06
+
+sudo !!
+
+
+git status
+git diff
+
+git checkout
+git checkout filename
+git checkout branche_name
+
+
