@@ -80,7 +80,8 @@ Faire revenir un fichier à l'état du dernier commit
 git checkout filename
 
 
-git checkout branche_name ????
+switcher vers la branche branche_name
+git checkout branche_name
 
 
 
@@ -125,8 +126,15 @@ gitstash pop myStash
 
 
 
+ctrl r pour récupérer la dernière commande matchant la recherche saisie
+ctrl l pour faire un clear sur la ligne de commande
 
 
+
+
+Récupérer l'historique de la ligne de commande : history
+Option plus intelligente :
+history | grep chromium
 
 
 
