@@ -43,6 +43,8 @@ git push -u origin main
 
 git remote add origin https://github.com/TheVroum/formation-crealead.git
 git branch -M main
+
+
 git push -u origin main
 
 
@@ -65,12 +67,66 @@ https://github.com/yvandouenel/prf06 | yvandouenel/prf06
 
 sudo !!
 
-
+Obtenir la branche courante et savoir l'état des fichiers dans le repository courant.
 git status
-git diff
 
+Voir les modifications entre la version commit d'un fichier f.html et sa version dans le dossier
+git diff f.html
+
+Faire revenir tous les fichiers du dossier à l'état du dernier commit
 git checkout
+
+Faire revenir un fichier à l'état du dernier commit
 git checkout filename
-git checkout branche_name
+
+
+git checkout branche_name ????
+
+
+
+
+Voir l'historique des commit
+git log
+
+Enlever le fichier ncm.ncm de la staging area :
+git restore --staged ncm.ncm
+
+
+Annuler un commit avec son hash:
+git revert hash
+
+
+
+Créer la branche nom_de_branche
+git checkout -b nom_de_branche
+
+Lister les branches et connaître la branches courante
+git branch
+
+Supprimer une branche qui a été mergée (qui ne contient pas de nouvelles modifications non présentes ailleurs) :
+git branch -d brancheasupprimer
+
+Supprimer la branche noon dans tous les cas :
+git branch -D noon
+
+
+Faire un 
+
+
+
+git flow
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
