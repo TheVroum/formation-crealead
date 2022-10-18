@@ -127,7 +127,7 @@ gitstash pop myStash
 
 
 ctrl r pour récupérer la dernière commande matchant la recherche saisie
-
+ctrl l pour faire un clear sur la ligne de commande
 
 
 
