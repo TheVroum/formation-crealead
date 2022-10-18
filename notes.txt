@@ -119,6 +119,11 @@ git flow
 
 
 
+gitstash stash myStash
+git switch mybranch2
+gitstash pop myStash
+
+
 
 
 
