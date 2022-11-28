@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=800, initial-scale=1.0">
     <title>CV Jean Oustry</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <h1>Curriculum vitae</h1>
-    <header></header>
-    <nav>
-        <ul>
-            <li><a href="#ex">Expérience</a></li>
-            <li><a href="#fo">Formation</a></li>
-            <li><a href="#ap">Autres projets</a></li>
-        </ul>
-    </nav>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#ex">Expérience</a></li>
+                <li><a href="#fo">Formation</a></li>
+                <li><a href="#ap">Autres projets</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         <section>
@@ -80,15 +81,15 @@
                 <label for="nom">Saisissez votre nom commençant par un J.
                     <abbr title="requis">*</abbr></label>
                 <input type="text" name="nom" id="nom" placeholder="Jean Bette" pattern="J.+" required>
-                <br/>
+                <br />
                 <label for="mail">Saisissez votre mail.
                     <abbr title="requis">*</abbr></label>
                 <input type="email" name="mail" id="mail" placeholder="toto@tata.com" required>
-                <br/>
-                    <label for="message">Saisissez votre message.
-                        <abbr title="requis">*</abbr></label>
+                <br />
+                <label for="message">Saisissez votre message.
+                    <abbr title="requis">*</abbr></label>
                 <textarea name="message" id="message" placeholder="Saississez votre message ici." required></textarea>
-                <br/>
+                <br />
                 <input type="submit" id="submit">
             </fieldset>
         </form>
