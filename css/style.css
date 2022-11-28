@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body {
+  background-image: url("../assets/pexels-ali-ramazan-çiftçi-13771250.jpg");
+  background-size: cover;
+}
+body main {
+  margin: 20px;
+}
+body ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+body ul li {
+  list-style-type: none;
+  border-radius: 6px;
+  border: solid 2px darkblue;
+  padding: 3px;
+}
+body ul li:not(:last-child) {
+  margin-right: 103px;
+}
+
+section p {
+  color: darkgray;
+  background-color: lightgray;
+  font-style: italic;
+  font-weight: 300;
+}
+section h3 {
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  font-weight: 500;
+}
+
+h1, h2 {
+  -webkit-backdrop-filter: sepia(80%);
+          backdrop-filter: sepia(80%);
+}/*# sourceMappingURL=main.css.map */

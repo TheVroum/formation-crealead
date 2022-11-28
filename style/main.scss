@@ -1,0 +1,51 @@
+
+@import "./_constants.scss";
+//On importe bien les contantes avant le reste.
+@import "./_mixins.scss";
+
+
+body 
+{
+    background-image: url("../assets/pexels-ali-ramazan-çiftçi-13771250.jpg");
+    background-size: cover;
+    main
+    {
+        margin: 20px;
+    }
+    ul
+    {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        li
+        {
+            list-style-type: none;
+            border-radius: 6px;
+            border: solid 2px $li-border-color;
+            padding: 3px;
+        }
+        li:not(:last-child)
+        {
+            margin-right: 103px;
+        }
+    }
+}
+
+section
+{
+    p
+    {
+        @include leger;
+    }
+    h3
+    {
+        @include titre(1.3em, blur(7px));
+        font-weight: 500;
+    }
+}
+
+h1, h2
+{
+    @include titre();
+}
+

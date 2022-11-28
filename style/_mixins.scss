@@ -1,0 +1,19 @@
+
+$leger-color: darkgray !default;
+$leger-background-color: darkgray !default;
+$leger-font-style: darkgray !default;
+$leger-font-weight: darkgray !default;
+
+
+@mixin leger {
+    color: darkgray;
+    background-color: lightgray;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+@mixin titre($fnt-size: 1.5em, $bdf: sepia(80%))
+{
+    backdrop-filter: $bdf;
+}
