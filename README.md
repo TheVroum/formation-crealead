@@ -34,7 +34,7 @@ Liste des points à respecter pour être au standard d'accessibilité RGAA 3, po
 
 [ ] ils doivent être dans le même ordre. En cas d'élément éventuel ? Je comprends que s'ils ne sont pas statiques, ils doivent être déterministes et ne pas changer d'ordre pour rien, au gré des aléas du code. J'aurais utilisé le mot constance et prévisibilité. Ils utilisent le mot cohérent.
 
-[ ] Il y a le moteur de recherche (inerne ici, ou tout du moins, pour le site), et la navigation prncipale.
+[ ] Il y a le moteur de recherche (interne ici, ou tout du moins, pour le site), et la navigation principale.
 
 [ ] Le plan du site. Verifier que les liens fonctionnent.
 
